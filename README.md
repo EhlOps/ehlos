@@ -62,3 +62,9 @@ make install-target-libgcc
 
 **Adding to PATH** <br/>
 Please add `export PATH="$HOME/opt/cross/bin:$PATH"` to `~/.profile`.
+
+### Compiling the OS
+
+The command used to assemble boot.s is `i686-elf-as boot.s -o boot.o`
+
+This command uses the boot assembler we created earlier in [How to install tools for OS work](#how-to-install-tools-for-os-work)
