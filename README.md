@@ -8,7 +8,7 @@ EhlOS is a simple OS designed to be virtualized. EhlOS is buildt using C and the
 
 The source code of most packages can be found [here](https://ftp.gnu.org/gnu/)
 
-**Preparation**
+**Preparation** <br/>
 Please run this in your current terminal:
 
 ```
@@ -60,5 +60,5 @@ make install-gcc
 make install-target-libgcc
 ```
 
-**Adding to PATH**
+**Adding to PATH** <br/>
 Please add `export PATH="$HOME/opt/cross/bin:$PATH"` to `~/.profile`.
