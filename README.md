@@ -81,4 +81,4 @@ To create the ISO, run `grub-mkrescue -o ehlos.iso iso` from the root directory 
 
 To run a virtual version of the system, run the following command: `qemu-system-i386 -cdrom ehlos.iso`
 
-**IMPORTANT**: QEMU must be configured to boot things from BIOS, not just UEFI.
+**IMPORTANT**: QEMU must be configured to boot things from BIOS, not just UEFI
